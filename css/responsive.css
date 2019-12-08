@@ -1,0 +1,138 @@
+/* Media querry for smartphones */
+@media (max-device-width:640px) {
+  .container, section {
+    width: 100%;
+  }
+
+  .responsive_scroll {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+  }
+
+  #logo {
+    height: 50px;
+  }
+
+  #search1 {
+    display: none;
+  }
+
+  .discount {
+    position: relative;
+    top: 70px;
+    font-size: 10px;
+  }
+
+  .discount a {
+    padding-bottom: 40px;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  #cta_collection {
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    margin-top: -25px;
+    padding: 3px;
+    font-size: 0.8rem;
+  }
+
+  .fas.fa-bars {
+    display: inline-block;
+  }
+
+  .top_responsive, .main_nav, .fas.fa-search, .fas.fa-chevron-up, .topright p {
+    display: none;
+  }
+
+  .discount a {
+    font-size: 1rem;
+  }
+
+  .product-row {
+    flex-direction: column;
+  }
+
+  .single-product {
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+
+  .product-actions {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .header_text h1 {
+    font-size: 0.9rem;
+  }
+
+  .header_text #cta_collection a {
+    font-size: 0.2rem;
+  }
+
+  #new {
+    font-size: 1.1rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+    padding: 0 30px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+  }
+
+  .cta, .single-product h3 {
+    text-align: center;
+    margin: 10px auto;
+  }
+
+  .cta {
+    font-size: 14px;
+  }
+
+  .avantages, .description {
+    margin: 0;
+  }
+
+  .handmade, .shipping, .retour {
+    font-size: 0.6rem;
+    padding: 0 12px;
+    margin-top: 20px;
+  }
+
+  .logo_line {
+    height: 40%;
+  }
+
+  img.logo_line {
+    height: 60px;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .footer-colum {
+    text-align: center;
+  }
+
+  p.about {
+    padding: 0;
+  }
+
+  .contact-form input[type=text],
+  .contact-form input[type=email],
+  .contact-form input[type=submit], .footer-column textarea {
+    width: 100%;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
